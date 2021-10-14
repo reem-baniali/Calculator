@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <!-- ======first way without js ===== -->
+
+    <!-- <form class="calculator" name="calc">
+      <input type="text" class="value" name="txt" readonly="" />
+
+      <span class="num clear" onclick="document.calc.txt.value ='' ">C</span>
+      <span class="num" onclick="document.calc.txt.value +='/' ">/</span>
+      <span class="num" onclick="document.calc.txt.value +='*' ">*</span>
+
+      <span class="num" onclick="document.calc.txt.value +='7' ">7</span>
+      <span class="num" onclick="document.calc.txt.value +='8' ">8</span>
+      <span class="num" onclick="document.calc.txt.value +='9' ">9</span>
+      <span class="num" onclick="document.calc.txt.value +='-' ">-</span>
+
+      <span class="num" onclick="document.calc.txt.value +='4' ">4</span>
+      <span class="num" onclick="document.calc.txt.value +='5' ">5</span>
+      <span class="num" onclick="document.calc.txt.value +='6' ">6</span>
+      <span class="num plus" onclick="document.calc.txt.value +='+' ">+</span>
+
+      <span class="num" onclick="document.calc.txt.value +='3' ">3</span>
+      <span class="num" onclick="document.calc.txt.value +='2' ">2</span>
+      <span class="num" onclick="document.calc.txt.value +='1' ">1</span>
+      <span class="num" onclick="document.calc.txt.value +='0' ">0</span>
+      <span class="num" onclick="document.calc.txt.value +='.' ">.</span>
+
+      <span
+        class="num equal"
+        onclick="document.calc.txt.value = eval(calc.txt.value) "
+        >=</span
+      >
+    </form> -->
+    <!-- =====end of the first way =====  -->
+
+    <!-- ======== second way by using JS ===========-->
+    <section>
+        <div class="container">
+            <div id="display"></div>
+            <div class="buttons">
+                <div class="button clear">C</div>
+                <div class="button">/</div>
+                <div class="button">*</div>
+                <div class="button">Del</div>
+                <div class="button">7</div>
+                <div class="button">8</div>
+                <div class="button">9</div>
+                <div class="button">-</div>
+                <div class="button">4</div>
+                <div class="button">5</div>
+                <div class="button">6</div>
+                <div class="button">+</div>
+                <div class="button">1</div>
+                <div class="button">2</div>
+                <div class="button">3</div>
+                <div class="button">.</div>
+                <div class="button">(</div>
+                <div class="button">0</div>
+                <div class="button">)</div>
+                <div id="equal" class="button">=</div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+
+    <!--========= End of the second way ============= -->
+
+  </body>
+</html>
